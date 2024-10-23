@@ -4,6 +4,6 @@ a = fs.readFileSync(0).toString();
 
 [a, b] = a.split(' ');
 
-[b, a] = [a, b];
+[b, a] = [Number(a), Number(b)];
 
 console.log(a, b);
