@@ -15,6 +15,7 @@ queryList.forEach((x) => {
 
         console.log(findIdx > -1 ? findIdx + 1 : 0);
     } else {
-        console.log(list[idx - 1], list[idx2 - 1])
+        const res = list.filter((_, lIdx) => lIdx >= idx - 1 && lIdx <= idx2 - 1);
+        console.log(res.join(' '))
     }
 })
