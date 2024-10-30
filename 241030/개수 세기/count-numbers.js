@@ -7,7 +7,8 @@ const list = input[1].split(' ').map(Number);
 
 let matchCnt = 0;
 
-for (let i = 0; i < n; i++) {
-    if (list[i] === m) matchCnt++;
+for (const num of list) {
+    if (num === m) matchCnt++;
 }
+
 console.log(matchCnt)
