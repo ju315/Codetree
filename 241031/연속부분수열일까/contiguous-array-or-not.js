@@ -15,7 +15,7 @@ if (startIdx === -1) {
 
 while(true) {
     let cnt = 0;
-    for (let i = 0; i < aLen; i++) {
+    for (let i = 0; i < aLen - startIdx; i++) {
         if (aList[i + startIdx] === bList[i]) {
             cnt++;
             continue;
