@@ -1,5 +1,5 @@
 const fs = require('fs');
-const list = fs.readFileSync(0).toString().trim().split(' ');
+const list = fs.readFileSync(0).toString().trim().split(' ').map(Number);
 
 let maxVal = 0, minVal = 1000;
 
