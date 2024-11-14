@@ -4,6 +4,8 @@ const revStr = str.split('').reverse().join('');
 
 if (n >= str.length) {
     consolel.og(revStr)
+
+    return;
 }
 
 console.log(revStr.slice(0, n));
