@@ -4,7 +4,7 @@ const patient = fs.readFileSync(0).toString().trim().split('\n')
 const cnt = patient.reduce((prev, curr) => {
     const [state, degree] = curr.split(' ');
 
-    if (state === 'Y' && degree >= '38') {
+    if (state === 'Y' && degree >= '37') {
         prev++;
     }
 
