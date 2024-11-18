@@ -7,4 +7,6 @@ if (num == 1) {
     console.log('Tom');
 } else if (num == 3) {
     console.log('Paul')
+} else {
+    console.log('Vacancy')
 }
