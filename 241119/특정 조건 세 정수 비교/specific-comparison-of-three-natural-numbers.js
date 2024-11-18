@@ -3,7 +3,7 @@ const [a, b, c] = fs.readFileSync(0).toString().trim().split(' ').map(Number);
 
 let ans = '';
 
-if (a === Math.min([b, c])) {
+if (a === Math.min(a, b, c)) {
     ans += 1
 } else {
     ans += 0
