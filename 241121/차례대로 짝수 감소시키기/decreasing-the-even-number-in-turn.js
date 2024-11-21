@@ -5,12 +5,12 @@ let sum = 0;
 let v = 1000;
 
 for (let i = 2; ; i += 2) {
-    cnt++;
-    sum += i;
-    if (v - i <= n) {
+    if (v <= n) {
         console.log(cnt, sum)
         break;
     }
 
     v -= i;
+    cnt++;
+    sum += i;
 }
