@@ -5,7 +5,7 @@ let v = n;
 for (let i = 1; ; i++) {
     cnt++;
 
-    if (v/i <= 1) {
+    if (Math.floor(v/i) <= 1) {
         console.log(cnt);
         break;
     }
