@@ -10,5 +10,5 @@ for (let i = 1; ; i++) {
         break;
     }
 
-    v /= i;
+    v = Math.floor(v/i);
 }
