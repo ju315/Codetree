@@ -8,7 +8,9 @@ for (let i = 1; i <= n; i++) {
         if (j < i) str += '  ';
         else {
             str += String.fromCharCode(charCode) + ' ';
-            charCode++;
+
+            if (charCode === 90) charCode = 65;
+            else charCode++;
         }
     }
 
