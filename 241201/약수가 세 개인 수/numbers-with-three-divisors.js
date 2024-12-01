@@ -1,4 +1,4 @@
-const [start, end] = require('fs').readFileSync(0).toString().trim().split(' ');
+const [start, end] = require('fs').readFileSync(0).toString().trim().split(' ').map(Number);
 
 let ans = 0;
 for (let i = start; i <= end; i++) {
